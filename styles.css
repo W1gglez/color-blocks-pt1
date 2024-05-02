@@ -38,10 +38,10 @@
 
 .x {
   position: absolute;
-  animation: x 11s linear infinite alternate;
+  /*animation: x 11s linear infinite alternate;*/
 }
 
-.y.red-fill{
+/* .y.red-fill{
   animation: y 5s linear infinite alternate;
 }
 
@@ -55,16 +55,16 @@
 
 .y.yellow-fill{
   animation: y 13s linear infinite alternate;
-}
+} */
 
 @keyframes x {
   100% {
-    transform: translateX( calc(100vw - 100px) );
+    transform: translateX( calc(100vw - 100px ) );
   }
 }
 
 @keyframes y {
   100% {
-    transform: translateY( calc(100vh - 100px) );
+    transform: translateY( calc(100vh - 250px ));
   }
 }

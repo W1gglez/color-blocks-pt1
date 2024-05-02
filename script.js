@@ -80,7 +80,8 @@ function addBlock(event) {
 }
 
 function removeBlock(event) {
-  event.target.remove();
+    event.target.remove();
+
   if (event.target.classList.contains('red-fill')) {
     redCounter--;
     document.getElementById('red-count').innerHTML = redCounter;
